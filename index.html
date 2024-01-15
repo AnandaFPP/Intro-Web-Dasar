@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Makassar</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/styles/style.css" />
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var scrollLinks = document.querySelectorAll('.nav-list a');
+  
+      scrollLinks.forEach(function(link) {
+        link.addEventListener('click', function(e) {
+          e.preventDefault();
+  
+          var targetId = this.getAttribute('href').substring(1);
+          var targetElement = document.getElementById(targetId);
+  
+          window.scrollTo({
+            top: targetElement.offsetTop,
+            behavior: 'smooth'
+          });
+        });
+      });
+    });
+  </script>
+
+  <body>
+    <header class="navbar-container">
+      <div class="logo">
+        <img src="/Porto-web/assets/image/mangkasara.jpg" alt="Makassar" />
+      </div>
+      <nav class="nav-list">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#history">History</a></li>
+          <li><a href="#landmarks">Landmarks</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="header-jumbotron">
+        <div class="jumbotron">
+          <h1>Makassar</h1>
+          <p>Sulawesi Selatan, Indonesia</p>
+        </div>
+      </section>
+      <section id="main-content">
+        <div id="content">
+          <article id="about" class="card">
+            <div class="about-desc">
+              <img
+                src="assets/image/about-city-1.jpg"
+                alt="makassar-city-1"
+                class="content-image"
+              />
+              <figcaption>
+                source: https://lontar.id/lima-konsep-hidup-orang-makassar/
+              </figcaption>
+              <h2>About</h2>
+              <p>
+                Kota Makassar (Macassar, Mangkasar, Ujung Pandang (1971-1999))
+                adalah salah satu kota metropolitan di Indonesia dan sekaligus
+                sebagai ibu kota provinsi Sulawesi Selatan. Kota Makassar
+                merupakan kota terbesar keempat di Indonesia dan terbesar di
+                Kawasan Timur Indonesia. Sebagai pusat pelayanan di Kawasan
+                Timur Indonesia (KTI), Kota Makassar berperan sebagai pusat
+                perdagangan dan jasa, pusat kegiatan industri, pusat kegiatan
+                pemerintahan, simpul jasa angkutan barang dan penumpang baik
+                darat, laut maupun udara dan pusat pelayanan pendidikan dan
+                kesehatan.
+              </p>
+              <p>
+                Secara administrasi kota ini terdiri dari 14 kecamatan dan 143
+                kelurahan. Kota ini berada pada ketinggian antara 0-25 m dari
+                permukaan laut. Penduduk Kota Makassar pada tahun 2000 adalah
+                1.130.384 jiwa yang terdiri dari lakilaki 557.050 jiwa dan
+                perempuan 573.334 jiwa dengan pertumbuhan rata-rata 1,65 %.
+              </p>
+            </div>
+          </article>
+          <article id="history" class="card">
+            <div class="history-desc">
+              <img
+                src="assets/image/makassar-city-2.jpg"
+                alt="makassar-history"
+                class="content-image"
+              />
+              <figcaption>
+                source: https://lontar.id/lima-konsep-hidup-orang-makassar/
+              </figcaption>
+              <h2>History</h2>
+              <p>
+                Awal kota dan bandar Makassar berada di muara Sungai Tallo
+                dengan pelabuhan niaga kecil di wilayah itu pada penghujung abad
+                XV. Sumber-sumber Portugis memberitakan, bahwa bandar Tallo itu
+                awalnya berada di bawah Kerajaan Siang di sekitar Pangkajene.
+                Pada pertengahan abad XVI, Tallo bersatu dengan sebuah kerajaan
+                kecil lainnya yang bernama Gowa, dan mulai melepaskan diri dari
+                kerajaan Siang, bahkan menyerang dan menaklukkan
+                kerajaan-kerajaan sekitarnya.
+              </p>
+              <p>
+                Hanya dalam seabad saja, Makassar menjadi salah satu kota niaga
+                terkemuka dunia yang dihuni lebih 100.000 orang (kota terbesar
+                ke 20 dunia). Pada zaman itu jumlah penduduk Amsterdam, yang
+                termasuk kota kosmopolitan dan multikultural baru mencapai
+                sekitar 60.000 orang. Perkembangan bandar Makassar yang demikian
+                pesat itu, berkat hubungannya dengan perubahan-perubahan pada
+                tatanan perdagangan internasional masa itu. Pusat utama jaringan
+                perdagangan di Malaka, ditaklukkan oleh Portugal pada tahun
+                1511, demikian juga di Jawa Utara semakin berkurang mengikuti
+                kekalahan armada lautnya di tangan Portugal dan pengkotakkotakan
+                dengan kerajaan Mataram. Bahkan ketika Malaka diambil alih oleh
+                Kompeni Dagang Belanda (VOC) pada tahun 1641, banyak pedagang
+                Portugis ikut pindah ke Makassar.
+              </p>
+            </div>
+          </article>
+          <section id="landmarks">
+            <h2>LANDMARKS</h2>
+            <div class="landmark-images">
+              <div class="landimages card">
+                <img src="assets/image/landmarks-1.jpg" alt="Masjid 99 Kubah" />
+                <h3>Masjid 99 Kubah</h3>
+                <p>
+                  Masjid 99 Kubah menjadi ikon baru Kota Makassar. Bahkan salah
+                  satu label transportasi menjadi kan masjid ini sebagai salah
+                  satu destinasi. Selain sebagai tempat ibadah, masjid banyak
+                  dikunjungi masyarakat karena keunikan bangunannya.
+                </p>
+              </div>
+              <div class="landimages card">
+                <img src="assets/image/landmarks-2.png" alt="Monumen Mandala" />
+                <h3>Monumen Mandala</h3>
+                <p>
+                  Mengunjungi monumen mandala tak hanya akan melihat bangunan
+                  megahnya saja. Anda juga bisa melihat relief yang mengelilingi
+                  monumen. Relief ini mengambarkan perjuangan, suasana dan juga
+                  adegan pada saat itu.
+                </p>
+              </div>
+              <div class="landimages card">
+                <img
+                  src="assets/image/landmarks-3.jpg"
+                  alt="Benteng Rotterdam"
+                />
+                <h3>Benteng Rotterdam</h3>
+                <p>
+                  Benteng Fort Rotterdam yang lokasinya tidak jauh dari Pantai
+                  Losari. Benteng Fort Rotterdam menjadi salah satu tempat
+                  bersejarah bagi masyarakat Makassar. Hal ini dikarenakan
+                  benteng tersebut merupakan peninggalan dari Kerajaan
+                  Gowa-Tallo. Anda akan merasakan suasana seperti sedang berada
+                  di Eropa karena nuansa arsitekturnya.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <aside>
+          <article class="profile card">
+            <header>
+              <h2>Makassar</h2>
+              <p>Kota Angin Mammiri</p>
+              <figure>
+                <img src="assets/image/logo-makassar.png" alt="Makassar-logo" />
+                <figcaption>
+                  source: PemProv Makassar
+                </figcaption>
+              </figure>
+            </header>
+
+            <section>
+              <h3>Informasi Lainnya</h3>
+
+              <table>
+                <tr>
+                  <th>Negara</th>
+                  <td>Indonesia</td>
+                </tr>
+                <tr>
+                  <th>Hari jadi</th>
+                  <td>2 November 1607</td>
+                </tr>
+                <tr>
+                  <th>Luas Total</th>
+                  <td>175.8 km<sup>2</sup></td>
+                </tr>
+                <tr>
+                  <th>Bahasa Daerah</th>
+                  <td>Makassar</td>
+                </tr>
+                <tr>
+                  <th>Kode Telepon</th>
+                  <td>+62 411</td>
+                </tr>
+              </table>
+            </section>
+          </article>
+        </aside>
+      </section>
+    </main>
+
+    <footer>
+      <p>Tugas Submission - Belajar Dasar Pemrograman Web by Ananda Fadhilah Perkasa Putra 😁</p>
+    </footer>
+  </body>
+</html>
