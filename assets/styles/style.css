@@ -73,7 +73,7 @@ main {
       rgba(0, 0, 0, 0.8),
       rgba(255, 0, 0, 0.2)
     ),
-    url("/Porto-web/assets/image/city-view-1.png");
+    url("/assets/image/city-view-1.png");
   background-color: red;
   background-repeat: no-repeat;
   background-size: cover;
